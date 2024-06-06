@@ -8,7 +8,7 @@ const StopPropagation = () => {
   return (
     <>
       <div onClick={() => alert('Cliquei na div') } style={{padding: 10, background: 'red'}}>
-        <button onClick={handlerClick}>
+        <button onClick={() => handlerClick}>
           Texte button
         </button>
       </div>
